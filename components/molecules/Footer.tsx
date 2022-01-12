@@ -10,7 +10,7 @@ export default function Footer() {
     { title: `Klaytn Wallet`, link: URL.KLAYTN_WALLET },
     { title: `Klaytn Docs`, link: URL.KLAYTN_DOCS },
     { title: `Ground X Official Site`, link: URL.GROUNDX_HOMEPAGE },
-    { title: `Jthcast`, link: URL.JTHCAST },
+    { title: `Borabit`, link: URL.BORABIT },
   ]
 
   return (
@@ -24,7 +24,7 @@ export default function Footer() {
           )
         })}
       </ul>
-      <p className={cssCopyright}>@ 2021 Klaystagram from Klaytn</p>
+      <p className={cssCopyright}>@ Klaystagram from Klaytn Docs</p>
     </footer>
   )
 }

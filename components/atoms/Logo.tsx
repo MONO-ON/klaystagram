@@ -8,7 +8,7 @@ interface ILogo {
 export default function Logo({ className }: ILogo) {
   return (
     <div className={cx({ [cssLogo]: true }, { [className]: !!className })}>
-      <h1>Klaystagram</h1>
+      <h1>Borastagram</h1>
     </div>
   )
 }
