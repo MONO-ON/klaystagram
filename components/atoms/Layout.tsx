@@ -21,7 +21,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Klaystagram</title>
+        <title>Borastagram</title>
         <link
           rel="apple-touch-icon"
           sizes="57x57"

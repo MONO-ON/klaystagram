@@ -24,7 +24,7 @@ export default function Footer() {
           )
         })}
       </ul>
-      <p className={cssCopyright}>@ Klaystagram from Klaytn Docs</p>
+      <p className={cssCopyright}>@ 2022 Borastagram from Klaytn</p>
     </footer>
   )
 }
