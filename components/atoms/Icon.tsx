@@ -61,7 +61,7 @@ const icons: IconDetailProps = {
     //   {
     //     d: `M0 19.7a19.731 19.731 0 005.4 13.6L18.8 1z`,
     //   },
-    // ],
+    ],
   },
   wallet: {
     viewBox: `0 0 64 64`,
