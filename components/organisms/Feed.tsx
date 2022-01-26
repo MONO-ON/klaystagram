@@ -9,13 +9,15 @@ import Icon from '../atoms/Icon'
 import Photo from './Photo'
 import { drawImageFromBytes } from '../../utils/imageUtils'
 import caver from '../../klaytn/caver'
+import { start } from 'repl'
 
 export default function Feed() {
   const dispatch = useDispatch()
   const isLoading = useSelector((state: RootState) => state.loading.isLoading)
   const feed = useSelector((state: RootState) => state.photos.feed)
   const [chainId, setChainId] = useState(undefined)
-  const description = `Klaytn-based NFT photo licensing application 📸`
+  const description = `Start NFT Art with Start.Art `
+  // const description = `Klaytn-based NFT photo licensing application 📸`
 
   function showDetailModal(event: React.MouseEvent<HTMLImageElement>) {
     const { id, src } = event.currentTarget.dataset
@@ -46,17 +48,17 @@ export default function Feed() {
             <div className={cssChainImage}>
               <Icon iconName="klaytnLogo" />
             </div>
-            <div className={cssChainId}>{chainId}</div>
+            <div className={cssChainId}>Start.Art</div>
             <div className={cssChainInfo}>
               <span className={cssPostsNumber}>{feed.length} </span>
-              <span>posts</span>
+              <span>ARTs</span>
             </div>
             <div className={cssChainDescription}>{description}</div>
           </header>
           <div className={cssInfoSeparator}>
             <div className={cssSelectedInfo}>
-              <Icon iconName="grid" />
-              <span>posts</span>
+              {/* <Icon iconName="grid" /> */}
+              <span>arts</span>
             </div>
           </div>
         </>

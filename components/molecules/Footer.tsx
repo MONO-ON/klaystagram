@@ -9,7 +9,8 @@ export default function Footer() {
     { title: `Klaytnscope`, link: URL.KLAYTN_SCOPE },
     { title: `Klaytn Wallet`, link: URL.KLAYTN_WALLET },
     { title: `Klaytn Docs`, link: URL.KLAYTN_DOCS },
-    { title: `Ground X Official Site`, link: URL.GROUNDX_HOMEPAGE },
+    // { title: `Ground X Official Site`, link: URL.GROUNDX_HOMEPAGE },
+    { title: `Start.Art`, link: URL.START_ART },
     { title: `Borabit`, link: URL.BORABIT },
   ]
 
@@ -24,7 +25,7 @@ export default function Footer() {
           )
         })}
       </ul>
-      <p className={cssCopyright}>@ 2022 Borastagram from Klaytn</p>
+      <p className={cssCopyright}>@ 2022 Start.Art</p>
     </footer>
   )
 }
