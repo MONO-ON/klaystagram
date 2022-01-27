@@ -155,7 +155,7 @@ export default function Icon({
       style={style}
       width="1em"
       height="1em"
-      fill="white"
+      fill="#70757A"
       aria-hidden="true"
       onClick={onClick}
     >
