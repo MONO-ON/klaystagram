@@ -154,7 +154,7 @@ const cssChainInfo = css`
   @media ${globalCss.breakpoint.mobileQuery} {
     grid-column: 1 / 3;
     grid-row: 4 / 5;
-    border-top: 1px solid ${globalCss.color.borderColor};
+    border-top: 1px solid #79F68F;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,7 +190,7 @@ const cssInfoSeparator = css`
   justify-content: center;
   width: 100%;
   height: 3.25rem;
-  border-top: 1px solid ${globalCss.color.borderColor};
+  border-top: 1px solid #79F68F;
   text-transform: uppercase;
   font-size: 0.75rem;
   font-weight: bold;

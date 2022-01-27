@@ -53,7 +53,7 @@ body {
   --secondary-brand-base: #614cf6;
   --secondary-brand-base-opacity: rgba(110, 89, 255, 0.4);
   --primary-brand-background-base: #504646;
-  --border-base: #79f68f;
+  --border-base: #d6d6d6;
   --group-base: #f4f4f4;
   --group-base-opacity: rgba(244, 244, 244, 0.5);
   --danger: #e03434;

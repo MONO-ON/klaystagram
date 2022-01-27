@@ -142,7 +142,7 @@ const cssHeader = css`
   top: 0;
   width: 100%;
   background-color: ${globalCss.color.black};
-  border-bottom: 1px solid ${globalCss.color.borderColor};
+  border-bottom: 1px solid #79F68F;
   z-index: 1;
 `
 

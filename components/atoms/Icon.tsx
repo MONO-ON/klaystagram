@@ -1,4 +1,5 @@
 import { css, cx, keyframes } from '@emotion/css'
+import { builtinModules } from 'module'
 import React, { CSSProperties, SVGAttributes } from 'react'
 
 export interface IconProps extends SVGAttributes<SVGElement> {
@@ -154,7 +155,7 @@ export default function Icon({
       style={style}
       width="1em"
       height="1em"
-      fill="currentColor"
+      fill="white"
       aria-hidden="true"
       onClick={onClick}
     >
