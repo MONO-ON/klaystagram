@@ -8,7 +8,7 @@ interface ILogo {
 export default function Logo({ className }: ILogo) {
   return (
     <div className={cx({ [cssLogo]: true }, { [className]: !!className })}>
-      <h1>{'>'}_Start.Art</h1>
+      <h1>{'>'}_StArt</h1>
     </div>
   )
 }
@@ -16,8 +16,9 @@ export default function Logo({ className }: ILogo) {
 const cssLogo = css`
   display: flex;
   align-items: center;
-
+  
   h1 {
     font-size: 1.25rem;
-  }
+    color: white;
+  },
 `

@@ -26,7 +26,6 @@ const globalCss = {
     borderRadius: `0.5rem`,
     fontSize,
     fontPercent: getFontPercent(),
-    
   },
   color: {
     backgroundColor: `var(--background-base)`,

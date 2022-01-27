@@ -46,9 +46,10 @@ export default function Feed() {
         <>
           <header className={cssChainInfoWrapper}>
             <div className={cssChainImage}>
-              <Icon iconName="klaytnLogo" />
+              {/* <Icon iconName="klaytnLogo" /> */}
+              <img src="/logologo.png" alt=""/>
             </div>
-            <div className={cssChainId}>Start.Art</div>
+            <div className={cssChainId}>StArt</div>
             <div className={cssChainInfo}>
               <span className={cssPostsNumber}>{feed.length} </span>
               <span>ARTs</span>
@@ -101,10 +102,12 @@ const cssContainer = css`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
 `
 
 const cssChainInfoWrapper = css`
   display: grid;
+  align-items: center;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto auto 1fr;
   width: 100%;
@@ -123,6 +126,10 @@ const cssChainImage = css`
   padding: 0 5rem;
   font-size: 8rem;
   line-height: 0;
+
+  img {
+    width: 150px;
+  }
 
   @media ${globalCss.breakpoint.mobileQuery} {
     grid-row: 1 / 3;
@@ -160,7 +167,8 @@ const cssChainInfo = css`
 `
 
 const cssPostsNumber = css`
-  color: ${globalCss.color.color};
+  // color: ${globalCss.color.color};
+  color: white;
   font-weight: bold;
 `
 
@@ -202,7 +210,7 @@ const cssInfoSeparator = css`
 
 const cssSelectedInfo = css`
   margin-top: -1px;
-  border-top: 1px solid ${globalCss.color.color};
+  border-top: 1px solid #79f68f;
 
   @media ${globalCss.breakpoint.mobileQuery} {
     border-top: 0;

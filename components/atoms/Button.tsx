@@ -74,7 +74,7 @@ const cssButton = css`
   cursor: pointer;
   background-color: ${globalCss.color.primaryBrandColor};
   border: none;
-  color: ${globalCss.color.white};
+  color: ${globalCss.color.black};
   padding: 0.25rem 0.75rem;
   border-radius: 0.25rem;
 

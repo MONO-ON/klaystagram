@@ -5,12 +5,12 @@ import Logo from '../atoms/Logo'
 export default function KlaytnContainer({ children }) {
   return (
     <div className={cssKlaytnContainer}>
-      <div className={cssContainer}>
+      {/* <div className={cssContainer}>
         <Logo className={cssLogo} />
-      </div>
+      </div> */}
       <div className={cssContainer}>
-        <h2 className={cssSubtitle}>
-          Klaytn-based NFT photo licensing application
+        <h2 className={cssSubtitle} style={{color: "black"}}>
+          Start NFT Art with _StArt
         </h2>
       </div>
       {children && <div className={cssChildrenContainer}>{children}</div>}
@@ -24,6 +24,8 @@ const cssKlaytnContainer = css`
   padding: 2rem 3rem;
   margin: auto;
   max-width: 80vw;
+  --color-base: #000000;
+  
 
   @media ${globalCss.breakpoint.mobileQuery} {
     padding: 1rem 1.5rem;
@@ -33,6 +35,8 @@ const cssKlaytnContainer = css`
 const cssContainer = css`
   display: flex;
   justify-content: center;
+  --color-base: #000000;
+
 `
 
 const cssLogo = css`
@@ -54,6 +58,7 @@ const cssLogo = css`
 const cssSubtitle = css`
   font-size: 1.25rem;
   text-align: center;
+  --color-base: #000000;
 
   @media ${globalCss.breakpoint.mobileQuery} {
     font-size: 1rem;

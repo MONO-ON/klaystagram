@@ -41,7 +41,7 @@ body {
   --background-base-reverse: #000000;
   --background-base-reverse-opacity: rgba(0, 0, 0, 0.85);
   --background-base-reverse-opacity-more: rgba(0, 0, 0, 0.5);
-  --background-down: #fafafa;
+  --background-down: #000000;
   --background-down-opacity: rgba(255, 255, 255, 0.2);
   --scrollbar-base-opacity: rgba(0, 0, 0, 0.5);
   --background-code-base: #f9f2f4;
@@ -49,16 +49,16 @@ body {
   --color-base-reverse: #FFFFFF;
   --color-down: #70757a;
   --color-code-base: #9a354a;
-  --primary-brand-base: #0095f6;
+  --primary-brand-base: #79f68f;
   --secondary-brand-base: #614cf6;
   --secondary-brand-base-opacity: rgba(110, 89, 255, 0.4);
   --primary-brand-background-base: #504646;
-  --border-base: #d6d6d6;
+  --border-base: #79f68f;
   --group-base: #f4f4f4;
   --group-base-opacity: rgba(244, 244, 244, 0.5);
   --danger: #e03434;
   --black: #000000;
-  --white: #ffffff;
+  --white: #FFFFFF;
   color-scheme: light dark;
 
   background-color: var(--background-base);
